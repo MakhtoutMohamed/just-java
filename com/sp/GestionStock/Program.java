@@ -57,11 +57,11 @@ public class Program {
                     System.out.println("Entrer le code de produit a modifier:");
                     int code = sc.nextInt();
                     sc.nextLine();
-                    System.out.println("Entrer le nom de produit a modifier:");
+                    System.out.println("Entrer le nv nom de produit a modifier:");
                     String nom = sc.nextLine();
-                    System.out.println("Entrer le prix de produit a modifier:");
+                    System.out.println("Entrer le nv prix de produit a modifier:");
                     Double prix = sc.nextDouble();
-                    System.out.println("Entrer la quantite de produit a modifier:");
+                    System.out.println("Entrer la nv quantite de produit a modifier:");
                     int quantite = sc.nextInt();
                     modifierProduit(code, nom, prix, quantite);
                     break;
