@@ -56,6 +56,7 @@ public class Program {
                 case 2:
                     System.out.println("Entrer le code de produit a modifier:");
                     int code = sc.nextInt();
+                    sc.nextLine();
                     System.out.println("Entrer le nom de produit a modifier:");
                     String nom = sc.nextLine();
                     System.out.println("Entrer le prix de produit a modifier:");
@@ -74,7 +75,7 @@ public class Program {
                     break;
                 case 5:
                     System.out.println("Veuillez entrer le nom rechercher:");
-                    String nom = sc.nextLine();
+                    nom = sc.nextLine();
                     System.out.println("Resulta de la recherche:");
                     Produit r=rechercherProduits(nom);
                     System.out.println(r);
